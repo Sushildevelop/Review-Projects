@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(45, 3, 3), rgb(2, 2, 35));
+}
+
+.container {
+    border: 2px solid red;
+    width: 600px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 80px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: crimson;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#author {
+    font-size: 25px;
+    color: rgb(4, 35, 112);
+}
+
+#job {
+    font-size: 20px;
+    color: rgb(228, 8, 177);
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#info {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(14, 25, 175);
+    font-weight: 500;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#person-img {
+    border: 2px solid rgb(41, 21, 21);
+    border-radius: 10px;
+    height: 120px;
+    width: 250px;
+}
+
+.prev-btn {
+    width: 60px;
+    height: 25px;
+    background-color: rgb(176, 241, 220);
+    border-radius: 20px;
+    border: none;
+}
+
+.prev-btn:hover {
+    background-color: aqua;
+}
+
+.prev-btn .bx {
+    font-size: 25px;
+}
+
+.next-btn {
+    width: 60px;
+    height: 25px;
+    background-color: rgb(183, 244, 224);
+    border-radius: 20px;
+    border: none;
+}
+
+.next-btn:hover {
+    background-color: aqua;
+}
+
+.next-btn .bx {
+    font-size: 25px;
+}
+
+.random-btn {
+    margin-top: 10px;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    background-color: cyan;
+    border-radius: 20px;
+    border: none;
+}
+
+.random-btn:hover {
+    background-color: gray;
+}
